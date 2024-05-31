@@ -1,0 +1,103 @@
+body{
+    margin:2rem;
+}
+h1{
+    font-size: 2rem;
+}
+header{
+    display:flex;
+    justify-content: center;
+}
+header >img{
+    width: 10rem;
+    height:14rem;
+}
+/*Nav*/
+nav ul{
+    display: flex;
+    background-color: rgb(129, 165, 129);
+    justify-content: center;
+    color: white;
+    padding: 0.5rem;
+    list-style: none;
+    border-radius: 0.5rem;
+
+}
+li{
+    padding: 1rem;
+}
+a:link,a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: brown;
+}
+
+/*Main*/
+main{
+    margin-bottom: 2rem;
+}
+section{
+    display: flex;
+}
+article{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+article img{
+    align-self: center;
+    width:80%;
+    height: 10rem;
+}
+article ul{
+    list-style: none;
+}
+.first{
+    color: white;
+    background-image: url("images/promo.png");
+    background-size: cover;
+    padding: 0rem 4rem 2rem 2rem;
+}
+.second > article{
+    background-color: rgb(129, 165, 129);
+    border-radius: 3rem;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+article a{
+    padding-bottom: 1rem;
+}
+#open{
+    text-align: center;
+}
+h1:hover{
+    transform: rotateX(720deg);
+	transition: 3s;
+}
+
+h2:hover{
+    animation: move 1s linear 2s 1;
+}
+@keyframes move{
+ 0%{ transform: rotateZ(0deg);}
+ 50%{ transform: rotateZ(20deg);}
+ 100%{ transform: rotateZ(-10deg);}
+}
+/*Footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+footer p{
+    border-top: 1rem solid rgb(129, 165, 129);
+    padding-left: 2rem;
+}
+footer img{
+    height: 7rem;
+    width: 5rem;
+}
