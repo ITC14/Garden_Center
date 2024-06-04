@@ -82,7 +82,7 @@ h2:hover{
 }
 @keyframes move{
  0%{ transform: rotateZ(0deg);}
- 50%{ transform: rotateZ(20deg);}
+ 50%{ transform: rotateZ(10deg);}
  100%{ transform: rotateZ(-10deg);}
 }
 /*Footer*/
